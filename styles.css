@@ -53,7 +53,7 @@ font-weight: 700;
 
 .banner-description{
     color: #727272;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     margin-bottom: 20px;
 }
 
@@ -76,6 +76,14 @@ font-weight: 700;
 
 
 /* shared styes */
+
+.nasum{color:
+    color: var(--dark-03, #727272);
+ font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
 
 /* teams section */
 .team-container{
@@ -165,11 +173,82 @@ font-weight: 600;
 }
 
 
+/* footer css */
+.footer-content{
+   height: 60px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FFF4E7;
+  text-align: center;
+  padding-top:50px;
+  margin-bottom:245px;
+}
 
+/* feature section */
 
+.features-title{
+    width: 468px; 
+color: var(--dark-01, #131313);
+font-size: 2.6rem;
+font-weight: 700;
+border-left:5px solid #FF900E;
+padding-left: 20px;
 
+}
+.feature-card{
+    width: 500px;
+height: 100px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+text-align: center;
+padding: 30px;
+}
+.all-feture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    padding:0 7.15rem;
+    margin-bottom: 50px;
+}
+.architech-image{
+    width:90%;
+}
+.experience{
+    width: 200px;
+height: 150px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF900E;
+text-align: center;
+padding: 2.8rem 3.5rem;
+position:relative;
+margin-top:-100px;
+margin-left: -50px;
 
-
+}
+.ten-year{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+}
+.experice{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+.nasum-01{
+    width: 586px;
+}
 
 
 
@@ -185,7 +264,7 @@ font-weight: 600;
         padding: 5px;
     }
 
-    .naver{
+    .naver,.all-feture{
         flex-direction: column;
         padding: 2px;
     }
@@ -212,6 +291,23 @@ font-weight: 600;
     gap:10px;
 }
 
+.feature-card,.features-title,.nasum-01{
+    width:50%;
+    height: 100%;
+margin-left: 50px;
+margin-top:30px;
+}
 
-
+.architech-image{
+    width: 80%;
+    margin-left:30px;
+    }
+    
+    .footer-content{
+        width:80%;
+        height:100%;
+        padding:10px;
+        margin:0 auto 10px;
+        
+    }
 }
