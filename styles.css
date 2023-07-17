@@ -151,8 +151,18 @@ font-weight: 700;
 font-size: 3rem;
 font-weight: 600;
 
+/* sponsor styles */
 }
-
+.sponsor-head{
+    text-align: center;
+}
+.sponsor-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding:50px 240px 130px;
+    align-items: center;
+    gap:50px;
+}
 
 
 
@@ -189,6 +199,19 @@ font-weight: 600;
     }
     .fact-cards-container{
         grid-template-columns:1fr;
+        padding: 20px;
     }
    
+    .facts-item-container{
+        padding: 20px;
+}
+
+.sponsor-container{
+    grid-template-columns: 1fr;
+    padding-left:120px;
+    gap:10px;
+}
+
+
+
 }
